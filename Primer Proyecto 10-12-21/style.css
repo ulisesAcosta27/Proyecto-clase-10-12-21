@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F6F6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contendor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    width: 17rem;
+    height: 22rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.texto{
+    color: #AB31D6;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.numeros{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.numero_cuota{
+    text-align: center;
+}
+.numero_cuota h3{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.numero_cuota p{
+    font-size: 1.3rem;
+    color: #B5AFAF;
+}
+
+.numero_mes{
+    text-align: center;
+}
+
+.numero_mes h3{
+    font-size: 1.3rem;
+    color: #B5AFAF;
+}
+
+.numero_mes p{
+    font-weight: 500;
+    font-size: .8rem;
+    color: #AB31D6;
+}
+
+.planes{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.planes_tarjetas{
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.planes_tarjetas img{
+    width: 1rem;
+    margin-right: .5rem;
+}
+.planes_tarjetas p{
+    font-size: .8rem;
+    color: #B5AFAF;
+}
+
+.tarjetas h3{
+    display: inline-block;
+    padding: .7rem .8rem;
+    border-radius: 1rem;
+    background-color: #AB31D6;
+    color: white;
+    position: relative;
+    left: 4rem;
+}
+.marron{
+    width: 20rem;
+    height: 40rem;
+    background-color: red;
+}
+
+/* Card2 */
+
+.card2{
+    background-color: #AB31D6;
+    width: 17rem;
+    height: 22rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.texto2{
+    padding-top: 1rem;
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.numeros{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.numero_cuota2{
+    text-align: center;
+}
+.numero_cuota2 h3{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #B5AFAF;
+}
+
+.numero_cuota2 p{
+    font-size: 1.3rem;
+    color: #EBC500;
+}
+
+.numero_mes{
+    text-align: center;
+}
+
+.numero_mes2 h3{
+    font-size: 1.3rem;
+    color: #EBC500;
+}
+
+.numero_mes2 p{
+    font-weight: 500;
+    font-size: .8rem;
+    color: white;
+}
+
+.planes2{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.planes_tarjetas2{
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.planes_tarjetas2 img{
+    width: 1rem;
+    margin-right: .5rem;
+}
+.planes_tarjetas2 p{
+    font-size: .8rem;
+    color: #B5AFAF;
+}
+
+.tarjetas2 h3{
+    display: inline-block;
+    padding: .7rem .8rem;
+    border-radius: 1rem;
+    background-color: #EBC500;
+    color: white;
+    position: relative;
+    left: 4rem;
+}
+.marron{
+    width: 20rem;
+    height: 40rem;
+    background-color: red;
+}
+
+/* Card3 */
+
+.tarjetas3{
+    display: inline-block;
+    padding: .7rem .8rem;
+    border-radius: 1rem;
+    background-color: #AB31D6;
+    color: white;
+    position: relative;
+    left: 4rem;
+}
+
+.texto3{
+    padding-bottom: 1.7rem;
+    color: #AB31D6;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2rem;
+}
